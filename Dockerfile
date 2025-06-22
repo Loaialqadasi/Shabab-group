@@ -1,5 +1,8 @@
 FROM php:8.2-apache
 
+# Install mysqli extension
+RUN docker-php-ext-install mysqli
+
 # Enable mod_rewrite if you use .htaccess
 RUN a2enmod rewrite
 
