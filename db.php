@@ -1,9 +1,9 @@
 <?php 
 // InfinityFree MySQL credentials
-$host = 'sql202.infinityfree.com'; 
-$username = 'if0_39240559'; 
-$password = '12345AJFALO'; // Replace with your real password
-$database = 'if0_39240559_users'; 
+$host = 'dpg-d1bqnqodl3ps73eupri0-a'; 
+$username = 'lostandfound'; 
+$password = 'bXH9PCnHXpCcnXqTXfpKt41cESxQzYFs'; // Replace with your real password
+$database = 'shabab'; 
 
 // Create the MySQLi connection
 $conn = new mysqli($host, $username, $password, $database);
